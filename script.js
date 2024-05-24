@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isJumping = false;
     let gravity = 0.9;
     let position = 0;
+    let isGameOver = false;
 
     function control(e) {
         if (e.keyCode === 32) { // Espacio para saltar
